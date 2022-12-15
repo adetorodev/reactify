@@ -12,8 +12,21 @@ function App() {
     {/* <FuncCompt name="Ezekiel" />
     <ClassCompt name="class Component"/> */}
 
-    {/* <Greet /> */}
-    <Welcome />
+    <Greet name="Bruce" heroname="Batman">
+      this is children props
+    </Greet>
+    <Greet name="Diana" heroname="Wonder woman">
+      <button>Click</button>
+    </Greet>
+    <Greet name="Clack" heroname="Superman">
+      <p>This this superman</p>
+    </Greet>
+    <Welcome name="Clack" heroname="Superman">
+      <p>This is the children</p>
+    </Welcome>
+    <Welcome name="Clack" heroname="Superman">
+      <h3>I am here now</h3>
+    </Welcome>
   </div>;
 }
 
