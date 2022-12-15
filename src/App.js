@@ -1,6 +1,7 @@
 import ClassCompt from "./component/ClassCompt";
 import FuncCompt from "./component/FuncCompt";
 import Greet from "./component/Greet";
+import Welcome from "./component/Welcome";
 
 
 // import MyComponent from "./component/Greet";
@@ -11,7 +12,8 @@ function App() {
     {/* <FuncCompt name="Ezekiel" />
     <ClassCompt name="class Component"/> */}
 
-    <Greet />
+    {/* <Greet /> */}
+    <Welcome />
   </div>;
 }
 

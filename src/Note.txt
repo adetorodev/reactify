@@ -4,3 +4,17 @@ Compoent represent the user interface of our app.
 Root component is the App.js
 Component are re-useable,
 Component can contain other components.
+
+Functional component
+simple function
+Use func component as much as possible
+Absenece of this keyword
+Solution without using state, but hooks
+Mainly reponsible for the UI
+Stateless, Dumb, presentational
+
+class Component
+more rich features
+Maintain their own private data state
+Complex UI
+Provide lifecycle hooks
