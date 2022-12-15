@@ -1,0 +1,6 @@
+Component
+
+Compoent represent the user interface of our app.
+Root component is the App.js
+Component are re-useable,
+Component can contain other components.
