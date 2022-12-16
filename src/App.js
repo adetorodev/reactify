@@ -1,5 +1,15 @@
+import ClassClick from "./Component/ClassClick";
+import EventBind from "./Component/EventBind";
+import FunctionClick from "./Component/FunctionClick";
+
 function App() {
-  return <div><h1>Hello</h1></div>;
+  return (
+    <div>
+      <EventBind />
+      {/* <ClassClick /> */}
+      {/* <FunctionClick /> */}
+    </div>
+  );
 }
 
 export default App;
