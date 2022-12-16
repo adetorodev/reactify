@@ -1,4 +1,5 @@
 // <<<<<<< HEAD
+import ParentComp from "./Component/ParentComp";
 import ClassCompt from "./component/ClassCompt";
 import Counter from "./component/Counter";
 import FuncCompt from "./component/FuncCompt";
@@ -12,7 +13,8 @@ import Message from "./component/message";
 
 function App() {
   return <div>
-    <Counter />
+    <ParentComp />
+    {/* <Counter /> */}
     {/* <Message /> */}
     {/* <FuncCompt name="Ezekiel" />
     <ClassCompt name="class Component"/> */}
