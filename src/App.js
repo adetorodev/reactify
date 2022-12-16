@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+// <<<<<<< HEAD
 import ClassCompt from "./component/ClassCompt";
 import Counter from "./component/Counter";
 import FuncCompt from "./component/FuncCompt";
@@ -33,20 +33,20 @@ function App() {
       <h3>I am here now</h3>
     </Welcome> */}
   </div>;
-=======
-import ClassClick from "./Component/ClassClick";
-import EventBind from "./Component/EventBind";
-import FunctionClick from "./Component/FunctionClick";
+// =======
+// import ClassClick from "./Component/ClassClick";
+// import EventBind from "./Component/EventBind";
+// import FunctionClick from "./Component/FunctionClick";
 
-function App() {
-  return (
-    <div>
-      <EventBind />
-      {/* <ClassClick /> */}
-      {/* <FunctionClick /> */}
-    </div>
-  );
->>>>>>> master
+// function App() {
+//   return (
+//     <div>
+//       <EventBind />
+//       {/* <ClassClick /> */}
+//       {/* <FunctionClick /> */}
+//     </div>
+//   );
+// >>>>>>> master
 }
 
 export default App;
