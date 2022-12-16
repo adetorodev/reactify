@@ -2,6 +2,7 @@ import ClassCompt from "./component/ClassCompt";
 import FuncCompt from "./component/FuncCompt";
 import Greet from "./component/Greet";
 import Welcome from "./component/Welcome";
+import Message from "./component/message";
 
 
 // import MyComponent from "./component/Greet";
@@ -9,10 +10,11 @@ import Welcome from "./component/Welcome";
 
 function App() {
   return <div>
+    <Message />
     {/* <FuncCompt name="Ezekiel" />
     <ClassCompt name="class Component"/> */}
 
-    <Greet name="Bruce" heroname="Batman">
+    {/* <Greet name="Bruce" heroname="Batman">
       this is children props
     </Greet>
     <Greet name="Diana" heroname="Wonder woman">
@@ -26,7 +28,7 @@ function App() {
     </Welcome>
     <Welcome name="Clack" heroname="Superman">
       <h3>I am here now</h3>
-    </Welcome>
+    </Welcome> */}
   </div>;
 }
 

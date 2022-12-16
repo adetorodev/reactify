@@ -5,7 +5,7 @@ import React from 'react'
 // }
 
 const Greet = (props) => {
-    console.log(props)
+    console.log(props) 
     // props.name = "Adek" // props are immutable
     return (
         <div>
