@@ -4,6 +4,7 @@ import ClassCompt from "./component/ClassCompt";
 import Counter from "./component/Counter";
 import FuncCompt from "./component/FuncCompt";
 import Greet from "./component/Greet";
+import NameList from "./component/NameList";
 import UserGreeting from "./component/UserGreeting";
 import Welcome from "./component/Welcome";
 import Message from "./component/message";
@@ -14,7 +15,8 @@ import Message from "./component/message";
 
 function App() {
   return <div>
-    <UserGreeting />
+    <NameList />
+    {/* <UserGreeting /> */}
     {/* <ParentComp /> */}
     {/* <Counter /> */}
     {/* <Message /> */}
