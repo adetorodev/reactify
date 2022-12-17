@@ -18,14 +18,34 @@ export class LifeCycleA extends Component {
     componentDidMount(){
         console.log('LifecycleA componentDidMount')
     }
+    shouldComponentUpdate(){
+        console.log('LifecycleA shouldComponentUpdate')
+        return true
+    }
+
+    getSnapshotBeforeUpdate(prevProps, prevState){
+        console.log('LifecycleA getSnapshotBeforeUpdate')
+        return null
+    }
+    componentDidUpdate() {
+        console.log('LifecycleA componentDidUpdate')
+    }
+
+    changeState = () => {
+        this.setState({
+            name: 'StreetCoder'
+        })
+    }
   render() {
     console.log('LifeCycleA render')
     return (
         <div>
             <div>
             LifeCycleA 
+            <button onClick={this.changeState} >Chnage State</button>
+            <LifeCycleB />
         </div>
-        <LifeCycleB />
+        
         </div>
     )
   }
