@@ -1,5 +1,11 @@
+import FragmentDemo from "./component/FragmentDemo";
+
 function App() {
-  return <div><h1>Hello</h1></div>;
+  return (
+    <div>
+    <FragmentDemo />
+  </div>
+  )
 }
 
 export default App;
