@@ -1,8 +1,9 @@
 import Form from "./component/Form";
+import LifeCycleA from "./component/LifeCycleA";
 
 function App() {
   return <div>
-    <Form />
+    <LifeCycleA />
   </div>;
 }
 
