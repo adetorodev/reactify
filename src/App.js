@@ -1,9 +1,11 @@
 import FragmentDemo from "./component/FragmentDemo";
+import Table from "./component/Table";
 
 function App() {
   return (
     <div>
-    <FragmentDemo />
+      <Table />
+    {/* <FragmentDemo /> */}
   </div>
   )
 }
