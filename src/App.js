@@ -1,5 +1,9 @@
+import FocusInput from "./component/FocusInput";
+
 function App() {
-  return <div><h1>Hello</h1></div>;
+  return <div>
+    <FocusInput />
+  </div>;
 }
 
 export default App;
