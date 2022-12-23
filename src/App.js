@@ -1,5 +1,9 @@
+import ClickCounter from "./component/clickCounter";
+
 function App() {
-  return <div><h1>Hello</h1></div>;
+  return <div>
+    <ClickCounter />
+  </div>;
 }
 
 export default App;
