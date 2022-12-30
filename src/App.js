@@ -1,5 +1,14 @@
+import { ComptC } from "./component/ComptC";
+import { UserProvider } from "./component/UseContext";
+
 function App() {
-  return <div><h1>Hello</h1></div>;
+  return (
+    <div>
+      <UserProvider value= 'Ezekiel'>
+        <ComptC />
+      </UserProvider>
+    </div>
+  );
 }
 
 export default App;
